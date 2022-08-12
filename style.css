@@ -597,7 +597,7 @@ footer {
         font-size: 5rem;
         padding-bottom: 2rem;
     }
-    .main-text-paragraph, .avaliability-text, .avaliability-questions, .input, .image-text{
+    .main-text-paragraph, .avaliability-text, .avaliability-questions, .image-text{
         font-size: 1rem;
     }
     .avaliability-questions > label{
@@ -605,6 +605,10 @@ footer {
     }
     .avaliability-questions > input {
         margin-right: .2rem;
+    }
+    .input {
+     width: .8rem;
+     height: .8rem;
     }
     /* image container */
     .image-wrapper {
@@ -624,7 +628,6 @@ footer {
     .testimonial-header{
         font-size: 3rem;
     }
-
     .testimonial-next{
         width: 3rem;
         padding: 1rem 3rem;
@@ -804,7 +807,7 @@ footer {
         line-height: 4rem;
         padding-bottom: 2rem;
     }
-    .main-text-paragraph, .avaliability-text, .avaliability-questions, .input, .image-text{
+    .main-text-paragraph, .avaliability-text, .avaliability-questions, .image-text{
         font-size: .8rem;
     }
     .avaliability-questions > label{
