@@ -511,11 +511,16 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
     flex-wrap: wrap;
 }
 
+.payment-item{
+    margin-left: 2rem;
+}
 
+.country-ctn{
+    display:flex ;
+}
 
 .country {
     display: flex;
@@ -653,10 +658,7 @@ footer {
         font-size: 2rem;
     }
 
-    .payment-item {
-        margin: 1rem;
-        width: 4;
-    }
+
     .country > p, i{
         font-size: 1rem;
     }
@@ -665,13 +667,17 @@ footer {
         padding: 3rem 6rem;
         font-size: 1rem;
     }
-    .footer-two-wrapper, .payment-ctn{
+    .footer-two-wrapper{
         flex-direction: column;
         align-items: flex-start;
     
     }
     .footer-icon-ctn{
-        margin-bottom: 8rem;
+        margin-bottom: 2rem;
+    }
+
+    .payment-ctn{
+        width: 100%;
     }
 
     .payment-item{
@@ -680,7 +686,7 @@ footer {
     }
 
     .country{
-        margin: 2rem 0 0 0;
+        margin: 2rem 2rem 0 0;
     }
 }
 
@@ -862,9 +868,17 @@ footer {
     .footer-icon{
         font-size: 1.8rem;
     }
+    .payment-ctn {
+        margin-top: 2rem;
+    }
+    .payment-item{
+        margin-right: 1rem;
+    }
 
     .country{
         margin-bottom: 1rem;
+        margin-right: 1rem;
+        padding:.3rem .6rem ;
     }
     .country > p, i{
         font-size: 1rem;
@@ -874,7 +888,5 @@ footer {
         padding: 1rem 2rem;
         font-size: .8rem;
     }
-    .payment-ctn {
-        margin-top: 2rem;
-    }
+    
 }
