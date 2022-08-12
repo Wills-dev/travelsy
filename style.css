@@ -597,7 +597,7 @@ footer {
         font-size: 5rem;
         padding-bottom: 2rem;
     }
-    .main-text-paragraph, .avaliability-text, .avaliability-questions, .image-text{
+    .main-text-paragraph, .avaliability-text, .avaliability-questions, .input, .image-text{
         font-size: 1rem;
     }
     .avaliability-questions > label{
@@ -804,7 +804,7 @@ footer {
         line-height: 4rem;
         padding-bottom: 2rem;
     }
-    .main-text-paragraph, .avaliability-text, .avaliability-questions, .image-text{
+    .main-text-paragraph, .avaliability-text, .avaliability-questions, .input, .image-text{
         font-size: .8rem;
     }
     .avaliability-questions > label{
