@@ -611,9 +611,6 @@ footer {
     .avaliability-questions > input {
         margin-right: .2rem;
     }
-    .input {
-     transform: scale(-1);
-    }
     /* image container */
     .image-wrapper {
         gap: 1rem;
@@ -810,6 +807,7 @@ footer {
     /* header */
     .icon-container {
         font-size: 1.4rem;
+        margin-left: 1.5rem;
     }
     /* main content */
     .main-container{
@@ -826,6 +824,10 @@ footer {
     .avaliability-questions > label{
         padding-right: 1rem;
     }
+    .input {
+        width: .8rem;
+        height: .8rem;
+       }
     /* image container */
     .image-wrapper {
         gap: .8rem;
